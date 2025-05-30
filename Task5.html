@@ -1,0 +1,222 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Box</title>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+
+
+        <style>
+          .main {
+            height: 950px;
+            width: 300px;
+            border: 2px solid rgb(211, 225, 211);
+
+            border-radius: 1%;
+            border-top-style: double;
+            box-shadow: 6px;
+           
+            margin-top: 0%;
+           
+            z-index: -1px; 
+          }
+          .sub1{
+
+            height: 900px;
+            width: 300px;
+            border: 2px solid rgb(211, 225, 211);
+
+            border-radius: 1%;
+            border-top-style: double;
+            box-shadow: 6px;
+           
+            margin-top: 0%;
+          }
+          .main,.sub1,.sub2{
+            display: inline-block;
+          }
+          .sub1{
+            position: absolute;
+            top: 10px;
+            width: 810px;
+            border-radius: 0%;
+          padding-left: 10px;
+        margin: 0px;
+        height: 510px;
+          }
+       
+   .box{
+background: aqua;
+height: 15px;
+width: 250px;
+border-radius: 7px;
+padding-left: 10px;
+   }
+.box1{
+    background: aqua;
+height: 15px;
+width: 200px;
+border-radius: 7px;
+padding-left: 10px;
+
+}
+.box2{
+    background: aqua;
+height: 15px;
+width: 180px;
+border-radius: 7px;
+padding-left: 10px;
+}
+.box3{
+    background: aqua;
+height: 15px;
+width: 150px;
+border-radius: 7px;
+padding-left: 10px;
+}
+    p{
+    padding-left:10px;
+   } 
+
+   .role1,.role2{
+    color: rgb(8, 173, 176);
+   }
+.heading{
+  font-size: 20px;
+}
+.foot{
+  background: rgb(9, 184, 215);
+  color: white;
+text-align: center;
+
+}
+
+.sub2{
+  position: relative;
+  left: 3px;
+  top: 5px;
+  border: 2px solid rgb(211, 225, 211);
+  height: 443px;
+  padding-left: 10px;
+
+width: 800px;
+ 
+}
+.p1{
+ background:  rgb(9, 184, 215);
+  border-radius: 9px;
+  width: 280px;
+  color: white;
+  text-align: center;
+}
+.p2{
+  background:  rgb(9, 184, 215);
+  border-radius: 9px;
+  width: 250px;
+  
+  color: white;
+  text-align: center;
+}
+.p3{
+  background:  rgb(9, 184, 215);
+  border-radius: 9px;
+  width: 200px;
+  color: white;
+  text-align: center;
+}
+.p4{
+  background:  rgb(9, 184, 215);
+  border-radius: 9px;
+  width: 180px;
+  
+  color: white;
+  text-align: center;
+}
+
+        </style> 
+      </head>
+      <body>
+        <div class="main">
+             <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="" width="300">
+             <p style="position: relative; bottom: 50px;">Jane Doe</p></span>
+             <p>  <ion-icon name="bag-outline" style="color:rgb(7, 88, 88);"></ion-icon> <span style="padding-left: 10px;">Designer</p></span>
+             <p> <ion-icon name="home-outline" style="color: rgb(6, 72, 72);"></ion-icon><span style="padding-left: 10px;">London, UK</p></span>
+             <p> <ion-icon name="mail-open-outline" style="color: rgb(2, 79, 79);"></ion-icon><span style="padding-left: 10px;">@mail.com</p></span>
+          <p> <ion-icon name="call-outline" style="color: rgb(5, 100, 100);"></ion-icon > <span style="padding-left: 5px;">1224435534</p></span>
+
+         <h3> <ion-icon name="star-outline" style="color: rgb(5, 100, 100);"></ion-icon>   <span style="padding-left: 5px;"></span>Skills</h3> 
+         <p>Adobe Photoshop</p>
+         <p class="p1">90%</p>
+        
+         <p>Photography</p>
+         <p class="p2">80%</p>
+        
+         <p>Illustrator</p>
+         <p class="p3">75%</p>
+        
+      <p>Media</p>
+      <p class="p4">50%</p>
+       <h3><ion-icon name="earth-outline"style="color: rgb(5, 100, 100);"></ion-icon>   <span style="padding-left: 5px;"></span>Languages</h3> 
+       <p>English</p>
+       <p class="p1">90%</p>
+     <p>Spanish</p>
+     <p class="p1">90%</p>
+     <p>German</p>
+     <p class="p1">90%</p>
+        </div>
+        <div class="sub1">
+
+            <p> <ion-icon name="bag-handle-outline"  style="color: rgb(6, 142, 112);"></ion-icon> <span style="font-size: 30px;">Work Experience</P></span>
+              <p class="heading">Front End Developer / w3schools.com</p>
+            
+              <p class="role1"> <ion-icon name="calendar-outline" style="color: rgb(8, 173, 176);"></ion-icon> Jan 2015 -<span style="background-color: rgb(5, 147, 168); ">Current</p></span>
+              <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p><hr>
+              
+            <p class="heading">Web Developer / something.com</p>
+            <p  class="role2">  <ion-icon name="calendar-outline"></ion-icon> Mar 2012 - Dec 2014</p>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p><hr>
+           <p class="heading">Graphic Designer / designsomething.com</p>
+           <p  class="role2">  <ion-icon name="calendar-outline"></ion-icon> Jun 2010 - Mar 2012</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="sub2">
+
+          <p> <ion-icon name="bag-handle-outline"  style="color: rgb(6, 142, 112);"></ion-icon> <span style="font-size: 30px;">Education</P></span>
+            <p class="heading">W3Schools.com</p>
+            
+          
+            <p class="role1"> <ion-icon name="calendar-outline" style="color: rgb(8, 173, 176);"></ion-icon>Forever</p>
+            <p>Web Development! All I need to know in one place</p><hr>
+            
+            <p class="heading">School of Coding</p>
+            <p  class="role2">  <ion-icon name="calendar-outline"></ion-icon> 2010 - 2013</p>
+            <p>Bachelors Degree</p>
+   
+          <p class="heading">London Business School</p>
+          
+         <p  class="role2">  <ion-icon name="calendar-outline"></ion-icon> 2010 - 2013</p>
+         <p>Bachelors Degree</p>
+</div>
+
+<div class="foot">
+  <footer>
+  <p>Find me on social media.</p>
+  <div class="icons">
+  <ion-icon name="logo-facebook"></ion-icon>
+  <ion-icon name="logo-linkedin"></ion-icon>
+  <ion-icon name="logo-snapchat"></ion-icon>
+  <ion-icon name="logo-pinterest"></ion-icon>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">CSS</a></p>
+
+</div>
+</footer>   
+      </div>
+      </body>
+    </html>
+  </body>
+</html>
